@@ -24,7 +24,6 @@ func NewStudentApi(router *gin.RouterGroup, resource *db.Resource) *StudentApi {
 	}
 	studentApi.initRouter()
 	return &studentApi
-
 }
 
 func (api *StudentApi) initRouter() {

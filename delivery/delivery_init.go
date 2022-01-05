@@ -36,5 +36,4 @@ func (app Routes) StartGin() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
 }
